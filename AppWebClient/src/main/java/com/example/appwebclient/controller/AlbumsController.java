@@ -1,7 +1,6 @@
 package com.example.appwebclient.controller;
 
 import com.example.appwebclient.model.response.AlbumRest;
-import com.sun.tools.javac.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.ParameterizedTypeReference;
@@ -21,6 +20,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import java.util.List;
 
 @Controller
 public class AlbumsController {
